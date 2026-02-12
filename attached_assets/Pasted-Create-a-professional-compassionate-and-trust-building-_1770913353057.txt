@@ -1,0 +1,79 @@
+Create a professional, compassionate, and trust-building website for a company that provides complete end-to-end funeral and after-death services.
+
+The platform should allow users to enter details such as location, religion, cultural background, number of attendees, budget, and specific ritual preferences. Based on this information, the company will handle the entire process including cremation or burial arrangements, priest/pandit booking, ritual planning, documentation support (death certificate assistance), transportation, venue arrangement, prayer ceremonies, and post-funeral rituals.
+
+The website should have a calm, respectful, and comforting design using soft colors (white, beige, light blue, or pastel tones). The tone should be empathetic and reassuring.
+
+Include the following pages and sections:
+
+Homepage
+
+Clear headline like: “Compassionate Funeral Services – We Handle Everything with Care”
+
+Short emotional introduction
+
+Call-to-action buttons: “Arrange Now” and “Get Immediate Assistance”
+
+How It Works
+
+Step 1: Submit Details
+
+Step 2: Customized Planning Based on Culture & Location
+
+Step 3: Complete Execution & Support
+
+Services Section
+
+Cremation & Burial Services
+
+Religious Ritual Arrangements (Hindu, Muslim, Christian, Sikh, etc.)
+
+Priest / Religious Leader Booking
+
+Documentation & Legal Support
+
+Transportation & Logistics
+
+Memorial & Prayer Ceremony Planning
+
+Culture & Religion-Based Customization
+
+Show that services are tailored according to traditions and customs.
+
+Pricing Packages
+
+Basic
+
+Standard
+
+Premium
+
+Transparent pricing explanation
+
+Emergency 24/7 Support Section
+
+Highlight urgent contact number
+
+Testimonials Section
+
+Sample compassionate testimonials
+
+Contact & Booking Form
+
+Name
+
+Phone
+
+Location
+
+Religion/Culture
+
+Type of Service Needed
+
+Budget Range
+
+Special Requests
+
+The website should feel trustworthy, organized, and sensitive. Avoid overly commercial language. Focus on emotional support, dignity, and professionalism.
+
+Make the layout modern, mobile-responsive, and easy to navigate. Include a secure online payment integration section.
