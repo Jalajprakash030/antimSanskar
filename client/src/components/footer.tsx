@@ -13,33 +13,33 @@ export function Footer() {
                   <span className="text-primary text-xl">🕊️</span>
                 </div>
                 <span className="font-serif text-xl font-medium tracking-wide">
-                  Eternal Peace
+                  Antim Sanskar
                 </span>
               </a>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Providing compassionate, end-to-end funeral and after-death services. 
-              We are here to support you through every step with dignity and respect.
+              Providing compassionate, end-to-end Hindu funeral and Shradh services. 
+              We are here to support you through every ritual with dignity and Vedic traditions.
             </p>
           </div>
 
           <div>
             <h3 className="font-serif text-lg font-medium mb-4">Services</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Cremation & Burial</a></Link></li>
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Religious Rituals</a></Link></li>
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Transportation</a></Link></li>
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Memorial Services</a></Link></li>
+              <li><Link href="/services"><a className="hover:text-primary transition-colors">Antim Kriya (Cremation)</a></Link></li>
+              <li><Link href="/services"><a className="hover:text-primary transition-colors">Pandit Booking</a></Link></li>
+              <li><Link href="/services"><a className="hover:text-primary transition-colors">Asthi Visarjan</a></Link></li>
+              <li><Link href="/services"><a className="hover:text-primary transition-colors">Shradh Ceremonies</a></Link></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-serif text-lg font-medium mb-4">Company</h3>
+            <h3 className="font-serif text-lg font-medium mb-4">Guidance</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><Link href="/about"><a className="hover:text-primary transition-colors">About Us</a></Link></li>
+              <li><Link href="/about"><a className="hover:text-primary transition-colors">Our Vedic Heritage</a></Link></li>
               <li><Link href="/contact"><a className="hover:text-primary transition-colors">Contact</a></Link></li>
-              <li><Link href="/booking"><a className="hover:text-primary transition-colors">Plan Ahead</a></Link></li>
-              <li><Link href="/faq"><a className="hover:text-primary transition-colors">FAQ</a></Link></li>
+              <li><Link href="/booking"><a className="hover:text-primary transition-colors">Plan Samagri</a></Link></li>
+              <li><Link href="/faq"><a className="hover:text-primary transition-colors">Ritual FAQ</a></Link></li>
             </ul>
           </div>
 
@@ -48,22 +48,22 @@ export function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="size-5 text-primary shrink-0 mt-0.5" />
-                <span className="text-muted-foreground">123 Serenity Lane, Peaceful Valley, CA 90210</span>
+                <span className="text-muted-foreground">Varanasi Ghat Road, Kashi, UP</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="size-5 text-primary shrink-0" />
-                <a href="tel:5551234567" className="text-muted-foreground hover:text-primary">24/7: (555) 123-4567</a>
+                <a href="tel:5551234567" className="text-muted-foreground hover:text-primary">24/7: +91 98765 43210</a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="size-5 text-primary shrink-0" />
-                <a href="mailto:care@eternalpeace.com" className="text-muted-foreground hover:text-primary">care@eternalpeace.com</a>
+                <a href="mailto:care@antimsanskar.in" className="text-muted-foreground hover:text-primary">care@antimsanskar.in</a>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border/50 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Eternal Peace Services. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Antim Sanskar Services. All rights reserved.</p>
           <div className="flex items-center gap-1">
             <span>Made with</span>
             <Heart className="size-3 text-red-400 fill-red-400" />

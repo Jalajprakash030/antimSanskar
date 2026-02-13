@@ -46,7 +46,7 @@ export function Navbar() {
                 isScrolled || location !== "/" ? "text-foreground" : "text-white"
               )}
             >
-              Eternal Peace
+              Antim Sanskar
             </span>
           </a>
         </Link>

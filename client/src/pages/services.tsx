@@ -6,42 +6,42 @@ import { Check } from "lucide-react";
 
 const packages = [
   {
-    name: "Basic",
-    description: "Essential services for a dignified farewell.",
-    price: "Starting at $2,500",
+    name: "Vedic Basic",
+    description: "Essential Hindu rituals for a dignified Antim Sanskar.",
+    price: "Starting at ₹25,000",
     features: [
-      "Coordination of all arrangements",
-      "Documentation & permits",
-      "Simple transportation",
-      "Basic ceremonial setup",
-      "Online memorial page",
+      "Pandit for Mukhagni Vidhi",
+      "Essential Samagri Kit",
+      "Wood/Electric coordination",
+      "Transportation to Shamshan",
+      "Documentation assistance",
     ],
   },
   {
-    name: "Standard",
-    description: "Comprehensive care with added support and traditional rituals.",
-    price: "Starting at $4,500",
+    name: "Standard Vidhi",
+    description: "Complete Hindu rituals with added support for Shradh.",
+    price: "Starting at ₹50,000",
     isPopular: true,
     features: [
       "Everything in Basic",
-      "Priest / Religious Leader booking",
-      "Floral arrangements",
-      "Premium transportation",
-      "Assistance with obituaries",
-      "On-site coordinator",
+      "Asthi Visarjan coordination",
+      "Pandit for 4th Day Shuddhikaran",
+      "Samagri for all 13 days",
+      "Assistance with sacred location",
+      "On-site Sewadar assistance",
     ],
   },
   {
-    name: "Premium",
-    description: "Complete end-to-end service with premium amenities.",
-    price: "Starting at $7,000",
+    name: "Premium Moksha",
+    description: "Complete end-to-end Vedic service at sacred Tirthas.",
+    price: "Starting at ₹1,00,000",
     features: [
       "Everything in Standard",
-      "Premium venue arrangement",
-      "Live streaming of ceremony",
-      "Catering coordination",
-      "Memory keepsakes",
-      "Grief counseling support sessions",
+      "Kashi/Haridwar ritual booking",
+      "VIP Shamshan arrangement",
+      "Catering for Terahvin",
+      "Memory album of rituals",
+      "Shradh anniversary reminders",
     ],
   },
 ];
@@ -53,10 +53,10 @@ export default function Services() {
 
       <div className="pt-32 pb-20 container mx-auto px-4">
         <div className="text-center mb-16">
-          <h1 className="font-serif text-4xl md:text-5xl mb-6">Our Services & Packages</h1>
+          <h1 className="font-serif text-4xl md:text-5xl mb-6">Pavitra Vidhi & Packages</h1>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            We offer transparent, respectful, and customizable options to honor your loved ones. 
-            Choose a package that fits your needs, or contact us for a custom arrangement.
+            We offer transparent, respectful, and Vedic-compliant options to honor your loved ones. 
+            All dakshina is fixed to ensure no commercialization of sacred rituals.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ export default function Services() {
             >
               {pkg.isPopular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full">
-                  Most Chosen
+                  Vidhi Popular
                 </div>
               )}
               <h3 className="font-serif text-2xl font-medium mb-2">{pkg.name}</h3>
@@ -88,7 +88,7 @@ export default function Services() {
                 <Button 
                   className={`w-full ${pkg.isPopular ? 'bg-primary text-primary-foreground' : 'bg-secondary text-secondary-foreground hover:bg-secondary/80'}`}
                 >
-                  Choose {pkg.name}
+                  Book {pkg.name}
                 </Button>
               </Link>
             </div>
@@ -97,35 +97,35 @@ export default function Services() {
 
         {/* Detailed Service List */}
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-serif text-3xl mb-8 text-center">Specific Services</h2>
+          <h2 className="font-serif text-3xl mb-8 text-center">Sacred Rituals</h2>
           <div className="space-y-12">
             
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="w-full md:w-1/3 aspect-[4/3] rounded-xl overflow-hidden">
-                <img src="/images/service-lilies.png" alt="Cremation" className="w-full h-full object-cover" />
+                <img src="/images/service-lilies.png" alt="Antim Kriya" className="w-full h-full object-cover" />
               </div>
               <div className="w-full md:w-2/3">
-                <h3 className="font-serif text-2xl mb-3">Cremation & Burial</h3>
+                <h3 className="font-serif text-2xl mb-3">Antim Kriya Vidhi</h3>
                 <p className="text-muted-foreground mb-4">
-                  We handle all logistics for cremation or burial, including coordination with cemeteries and crematoriums, urn or casket selection assistance, and transportation.
+                  We handle all logistics for cremation according to Hindu Shastras, including coordination with local cremation grounds, arranging sacred wood, and Pandit for Mukhagni.
                 </p>
                 <Link href="/booking">
-                  <span className="text-primary font-medium hover:underline cursor-pointer">Arrange Consultation &rarr;</span>
+                  <span className="text-primary font-medium hover:underline cursor-pointer">Ritual Consultation &rarr;</span>
                 </Link>
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row-reverse gap-8 items-center">
               <div className="w-full md:w-1/3 aspect-[4/3] rounded-xl overflow-hidden">
-                <img src="/images/service-ritual.png" alt="Rituals" className="w-full h-full object-cover" />
+                <img src="/images/service-ritual.png" alt="Vedic Rituals" className="w-full h-full object-cover" />
               </div>
               <div className="w-full md:w-2/3">
-                <h3 className="font-serif text-2xl mb-3">Religious & Cultural Rituals</h3>
+                <h3 className="font-serif text-2xl mb-3">Asthi Visarjan & Tirth</h3>
                 <p className="text-muted-foreground mb-4">
-                  Respecting traditions is at our core. We have a network of priests and religious leaders for Hindu, Muslim, Christian, Sikh, and Buddhist ceremonies. We arrange all necessary items (samagri) and ensure rituals are conducted correctly.
+                  Sacred immersion of ashes in the Ganga at Haridwar, Kashi, or Prayagraj. We arrange Pandits for Tirth rituals and comfortable transportation for the family.
                 </p>
                 <Link href="/booking">
-                  <span className="text-primary font-medium hover:underline cursor-pointer">Learn More &rarr;</span>
+                  <span className="text-primary font-medium hover:underline cursor-pointer">Kashi/Haridwar Booking &rarr;</span>
                 </Link>
               </div>
             </div>
@@ -135,12 +135,12 @@ export default function Services() {
                 <img src="/images/service-support.png" alt="Legal Support" className="w-full h-full object-cover" />
               </div>
               <div className="w-full md:w-2/3">
-                <h3 className="font-serif text-2xl mb-3">Documentation & Legal Assistance</h3>
+                <h3 className="font-serif text-2xl mb-3">Shradh & Terahvin Puja</h3>
                 <p className="text-muted-foreground mb-4">
-                  The paperwork can be overwhelming. We assist with obtaining death certificates, burial/cremation permits, and other necessary legal documentation to ease your burden during this time.
+                  Complete management of the 13-day ritual cycle, including Terahvin Puja, Brahmin Bhoj coordination, and Varshik Shradh reminders.
                 </p>
                 <Link href="/booking">
-                  <span className="text-primary font-medium hover:underline cursor-pointer">Get Help &rarr;</span>
+                  <span className="text-primary font-medium hover:underline cursor-pointer">Book Shradh Pandit &rarr;</span>
                 </Link>
               </div>
             </div>

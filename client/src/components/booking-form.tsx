@@ -167,12 +167,12 @@ export function BookingForm() {
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
-                    <SelectItem value="immediate">Immediate Funeral Arrangement</SelectItem>
-                    <SelectItem value="cremation">Cremation Services</SelectItem>
-                    <SelectItem value="burial">Burial Services</SelectItem>
-                    <SelectItem value="repatriation">International Repatriation</SelectItem>
-                    <SelectItem value="preplanning">Pre-planning (Future Need)</SelectItem>
-                    <SelectItem value="memorial">Memorial Service Only</SelectItem>
+                    <SelectItem value="immediate">Antim Kriya (Immediate Cremation)</SelectItem>
+                    <SelectItem value="pandit">Pandit/Priest Booking</SelectItem>
+                    <SelectItem value="asthi">Asthi Visarjan Assistance</SelectItem>
+                    <SelectItem value="shradh">Shradh & Terahvin Puja</SelectItem>
+                    <SelectItem value="samagri">Ritual Samagri Kit</SelectItem>
+                    <SelectItem value="transport">Asthi/Body Transportation</SelectItem>
                   </SelectContent>
                 </Select>
                 <FormMessage />
@@ -184,22 +184,18 @@ export function BookingForm() {
             name="religion"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Religious/Cultural Preference</FormLabel>
+                <FormLabel>Hindu Tradition Preference</FormLabel>
                 <Select onValueChange={field.onChange} defaultValue={field.value}>
                   <FormControl>
                     <SelectTrigger>
-                      <SelectValue placeholder="Select preference (Optional)" />
+                      <SelectValue placeholder="Select tradition (Optional)" />
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
-                    <SelectItem value="none">No specific preference</SelectItem>
-                    <SelectItem value="christian">Christian</SelectItem>
-                    <SelectItem value="hindu">Hindu</SelectItem>
-                    <SelectItem value="muslim">Muslim</SelectItem>
-                    <SelectItem value="jewish">Jewish</SelectItem>
-                    <SelectItem value="sikh">Sikh</SelectItem>
-                    <SelectItem value="buddhist">Buddhist</SelectItem>
-                    <SelectItem value="other">Other</SelectItem>
+                    <SelectItem value="brahmin">Brahmin</SelectItem>
+                    <SelectItem value="kshatriya">Kshatriya</SelectItem>
+                    <SelectItem value="vaishya">Vaishya</SelectItem>
+                    <SelectItem value="other">Other Vedic Traditions</SelectItem>
                   </SelectContent>
                 </Select>
                 <FormMessage />
@@ -207,6 +203,29 @@ export function BookingForm() {
             )}
           />
         </div>
+
+        <FormField
+          control={form.control}
+          name="budget"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>Estimated Budget (₹)</FormLabel>
+              <Select onValueChange={field.onChange} defaultValue={field.value}>
+                <FormControl>
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select budget range" />
+                  </SelectTrigger>
+                </FormControl>
+                <SelectContent>
+                  <SelectItem value="basic">₹25,000 - ₹50,000</SelectItem>
+                  <SelectItem value="standard">₹50,000 - ₹1,00,000</SelectItem>
+                  <SelectItem value="premium">₹1,00,000+</SelectItem>
+                </SelectContent>
+              </Select>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
 
         <FormField
           control={form.control}
