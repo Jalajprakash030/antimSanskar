@@ -82,7 +82,7 @@ export function Navbar() {
               <Phone className="size-4" />
             </div>
             <span className={isScrolled || location !== "/" ? "text-foreground" : "text-white"}>
-              (555) 123-4567
+              +91 98765 43210
             </span>
           </div>
         </div>
@@ -122,8 +122,8 @@ export function Navbar() {
                 </nav>
                 <div className="flex flex-col gap-2 p-4 bg-secondary/30 rounded-lg">
                   <span className="text-sm text-muted-foreground">24/7 Support Line</span>
-                  <a href="tel:5551234567" className="flex items-center gap-2 text-primary font-bold">
-                    <Phone className="size-4" /> (555) 123-4567
+                  <a href="tel:919876543210" className="flex items-center gap-2 text-primary font-bold">
+                    <Phone className="size-4" /> +91 98765 43210
                   </a>
                 </div>
               </div>

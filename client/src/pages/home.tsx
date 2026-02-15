@@ -42,15 +42,15 @@ export default function Home() {
             Complete end-to-end Hindu funeral and after-death Shradh services. 
             We handle every Vedic ritual with purity and respect.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
             <Link href="/booking">
-              <Button size="lg" className="rounded-full px-8 h-12 text-base w-full sm:w-auto bg-primary hover:bg-primary/90 border-none shadow-lg hover:shadow-xl transition-all">
+              <Button size="lg" className="rounded-full px-10 h-14 text-lg w-full sm:w-auto bg-primary hover:bg-primary/90 border-none shadow-xl hover:scale-105 transition-all">
                 Book Ritual Now
               </Button>
             </Link>
-            <a href="tel:919876543210">
-              <Button size="lg" variant="outline" className="rounded-full px-8 h-12 text-base w-full sm:w-auto bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 hover:text-white">
-                <Phone className="mr-2 size-4" /> 24/7 Immediate Help
+            <a href="tel:919876543210" className="w-full sm:w-auto">
+              <Button size="lg" variant="outline" className="rounded-full px-10 h-14 text-lg w-full sm:w-auto bg-white/10 backdrop-blur-md border-white/40 text-white hover:bg-white/20 hover:text-white transition-all">
+                <Phone className="mr-2 size-5" /> 24/7 Helpline
               </Button>
             </a>
           </div>
